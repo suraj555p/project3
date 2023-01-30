@@ -1,0 +1,207 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+  padding: 3px 50px;
+}
+
+.logo img{
+    height: 57px;
+}
+
+#navigation{
+    display: flex;
+    margin: 12px;
+}
+
+#navigation ul{
+    list-style: none;
+    display: flex;
+    padding: 22px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+}
+
+#navigation ul li a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+#navigation ul li a{
+    text-decoration: none;
+    padding: 3px 54px;
+    color: white;
+    font-size: 19px;
+}
+
+#navigation::before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    background: url("1.jpg") no-repeat center center/cover;
+    height: 108%;
+    width: 100%;
+    opacity: 2.8;
+    z-index: -1;
+}
+
+.place{
+    padding: 27px;
+}
+
+.place input{
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid orange;
+  border-radius: 5px;
+  width: 123%;
+  height: 245%;
+  margin: -12px;
+}
+
+.but{
+    margin: 3px 12px;
+}
+
+#but1{
+    background-color: orange;
+    color: white;
+    
+    border-left: 0px;
+    font-size: 22px;
+    height: 75%;
+    width: 151%;
+    
+    margin: 10px -10px;
+    border: solid orange;
+    border-left: 0px;
+    font-size: 22px;
+    height: 73%;
+    width: 151%;
+    margin: 11px -10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: orange;
+    cursor: pointer;
+}
+
+#but2{
+    font-size: 22px;
+    background-color: darkorange;
+    color: white;
+    border: 8px solid darkorange;
+    border-radius: 8px;
+    position:relative;
+    top:28px;
+    left: -4px;
+    padding: 14px 50px;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 60px;
+    color: white;
+}
+
+h1{
+    color: orange;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+p{
+    color: white;
+    font-size: 19px;
+}
+
+.home{
+    padding: 22px;
+    margin: 119px 45px;
+}
+
+.container{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.loginbar{
+    display: flex;
+    background-color: black;
+    height: 470px;
+    border-radius: 40px;
+    opacity: 1.4;
+    flex-direction: column;
+    position: relative;
+    top: 138px;
+    left: 260px;
+}
+
+.loginbar h2{
+    background-color: white;
+    color: darkorange;
+    font-size: 27px;
+    border-radius: 8px;
+    padding: 9px 76px;
+    margin: 32px 50px;
+}
+
+.loginbar input{
+    margin: 21px 50px;
+    font-size: 22px;
+    padding: 3px 0px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-bottom: 2px solid orange;
+}
+
+.loginbar button{
+    background-color: darkorange;
+    color: black;
+    margin: 14px 52px;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 4px 9px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+p1{
+    color: white;
+    font-size: 19px;
+    /* margin-left: 85px; */
+    text-align: center;
+}
+
+p2{
+    color: darkgoldenrod;
+    /* margin-left: 44px; */
+}
+
+p2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#fabicon a
+{
+    margin-top: 2px;
+ color: white;
+ margin: 2px;
+}
+
+#fabicon a:hover{
+    transform: scale(1.5);
+    color: rgb(244, 151, 75);
+}
+
+.place1{
+    display: flex;
+    flex-direction: horizontal;
+}
