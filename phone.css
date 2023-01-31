@@ -39,7 +39,7 @@
      }
      #navigation::before{
         height: 322%;
-        width: 227%;
+        width: 310%;
      }
     #navigation{
         box-sizing: border-box;
@@ -98,29 +98,29 @@
 @media(max-width:450px)
 {
     #navigation::before{
-        height:270%;
-        width:240%;
+        height:310%;
+        width:300%;
     }
 }
 @media(max-width:601px)
 {
     #navigation::before{
-        width:266%;
+        width:300;
         height: 310%;
     }
 }
 @media(max-width:477px)
 {
    #navigation::before{
-        width:270%;
+        width:398%;
         height: 350%;
     }
 }
 @media(max-width:413px)
 {
     #navigation::before{
-        width: 298%;
-        height: 351%;
+        width: 310%;
+        height: 378%;
     }
 }
 @media(max-width:382px)
